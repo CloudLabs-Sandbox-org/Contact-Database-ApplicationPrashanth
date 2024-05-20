@@ -108,5 +108,5 @@ namespace CRUD_application_2.Controllers
             userlist.Remove(user);
             return RedirectToAction("Index");
         }
-    }c
+    }
 }
