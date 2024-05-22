@@ -10,7 +10,7 @@ namespace CRUD_application_2.Controllers
         // GET: User
         public ActionResult Index()
         {
-            return View(userlist);
+            return View(userlist); //test
         }
 
         // GET: User/Details/5
@@ -21,6 +21,7 @@ namespace CRUD_application_2.Controllers
             {
                 return HttpNotFound();
             }
+
             return View(user);
         }
 
